@@ -233,6 +233,6 @@ def internal_error(error):
 if __name__ == '__main__':
     """
     Run Flask app
-    Debug mode: True for development, False for production
+    Debug mode: False for production deployment on Render
     """
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=False, host='0.0.0.0', port=5000)

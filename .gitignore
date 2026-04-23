@@ -37,8 +37,9 @@ wheels/
 *.sqlite3
 
 # ML Model files (optional - only if very large)
-*.pkl
-*.joblib
+# Note: models/ directory is tracked for production deployment
+# *.pkl
+# *.joblib
 
 # Environment variables
 .env
